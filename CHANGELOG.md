@@ -14,8 +14,8 @@ and this project follows [Semantic Versioning](https://semver.org/).
 - Reserved the `openbim-bsdd` canonical package name with an explicitly
   non-functional scaffold.
 - Added `bsdd` as an exact-version pure re-export alias.
-- Added standalone documentation, CI, packaging checks, and a semantic alias
-  purity gate.
+- Added standalone documentation, CI, packaging checks, and a mutation-verified
+  semantic alias-purity gate.
 
-[Unreleased]: https://github.com/openbimrs/bsdd/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/openbimrs/bsdd/commits/main
 [0.1.0]: https://crates.io/crates/openbim-bsdd/0.1.0

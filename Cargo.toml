@@ -1,14 +1,3 @@
 [workspace]
 resolver = "2"
 members = ["openbim-bsdd", "bsdd"]
-
-[workspace.metadata.release]
-shared-version = true
-tag-name = "v{{version}}"
-pre-release-commit-message = "chore(release): {{version}}"
-
-[profile.release]
-opt-level = 3
-lto = "thin"
-codegen-units = 1
-strip = true
