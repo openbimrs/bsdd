@@ -40,14 +40,11 @@ link to buildingSMART documentation does not establish capability.
 ## Packaging and release sequence
 
 1. Run `./scripts/gate.sh` on Rust 1.85.0.
-2. Inspect and publish `openbim-bsdd` through an explicit maintainer action.
-3. Confirm `openbim-bsdd` at the exact version is available from crates.io.
-4. Replace the alias list-only gate with full alias package verification.
-5. Inspect and publish the matching `bsdd` package explicitly.
+2. Publish `openbim-bsdd` before its exact-version alias.
+3. Publish the matching `bsdd` package only through an explicit maintainer action.
 
-The repository CI never publishes. Before step 3, `cargo package --list -p bsdd`
-is intentional: full verification resolves the alias's registry-normalized exact
-dependency, which cannot succeed until the canonical package exists there.
+The repository CI never publishes. The steady-state gate fully packages and
+verifies both crates.
 
 ## External material
 

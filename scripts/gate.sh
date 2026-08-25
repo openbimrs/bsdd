@@ -13,6 +13,4 @@ scripts/check-alias-purity.sh
 scripts/test-alias-purity.sh
 # Verify Cargo's full source preparation and build for the canonical crate.
 cargo package --locked -p openbim-bsdd
-# Full alias verification requires openbim-bsdd = 0.1.0 in crates.io after the
-# canonical release. Listing still validates the alias package file boundary.
-cargo package --locked --list -p bsdd
+cargo package --locked -p bsdd

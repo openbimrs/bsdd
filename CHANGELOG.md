@@ -7,6 +7,10 @@ and this project follows [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 
+### Changed
+
+- The steady-state release gate now fully packages the published `bsdd` alias.
+
 ## [0.1.0] - 2026-08-25
 
 ### Added

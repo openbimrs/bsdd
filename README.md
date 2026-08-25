@@ -44,19 +44,12 @@ canonical crate, preserving one source for any future API.
 
 ## Install
 
-After the corresponding version has been published to crates.io, choose one
-package name (do not add both directly):
+Choose one package name (do not add both directly):
 
 ```bash
 cargo add openbim-bsdd@0.1.0
 # or
 cargo add bsdd@0.1.0
-```
-
-For this unpublished local candidate, use a path dependency instead:
-
-```toml
-openbim-bsdd = { path = "path/to/bsdd/openbim-bsdd" }
 ```
 
 The only current item is a status marker:
@@ -88,11 +81,8 @@ cd bsdd
 ./scripts/gate.sh
 ```
 
-The gate checks formatting, build, tests, Clippy, rustdoc, alias purity, and the
-package contents. The canonical crate is fully packaged and verified. Until
-`openbim-bsdd = 0.1.0` exists in the registry, the alias is checked with
-`cargo package --list` because crates.io package verification cannot resolve
-its exact registry dependency before the canonical package is released.
+The gate checks formatting, build, tests, Clippy, rustdoc, mutation-verified
+alias purity, and complete package archives for both crates.
 
 See [the architecture notes](docs/architecture.md) and
 [contribution guide](CONTRIBUTING.md).

@@ -1,6 +1,6 @@
 # bsdd alias plan
 
-Status: local pure re-export candidate; not published.
+Status: published pure re-export alias.
 Last updated: 2026-08-25
 
 ## Invariant
@@ -15,7 +15,7 @@ The sole dependency remains pinned to the exact canonical version.
 
 ## Work queue
 
-- [ ] `ALIAS-RELEASE` — fully package and release only after matching
+- [x] `ALIAS-RELEASE` — fully package and release after matching
   `openbim-bsdd` exists on crates.io
 
 No feature implementation belongs in this package.
