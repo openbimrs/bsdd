@@ -1,0 +1,11 @@
+/target
+/references
+**/*.rs.bk
+*.pdb
+.DS_Store
+*.swp
+.idea/
+.vscode/
+.hermes/
+__pycache__/
+*.py[cod]

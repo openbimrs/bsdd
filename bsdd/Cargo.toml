@@ -1,0 +1,24 @@
+[package]
+name = "bsdd"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.85"
+license = "MIT"
+authors = ["point-grey"]
+repository = "https://github.com/openbimrs/bsdd"
+homepage = "https://github.com/openbimrs/bsdd"
+documentation = "https://docs.rs/bsdd"
+readme = "README.md"
+description = "Reserved bSDD package-name alias; pure re-export of openbim-bsdd."
+keywords = ["bim", "openbim", "bsdd", "dictionary", "aec"]
+categories = ["development-tools"]
+publish = true
+include = ["src/**", "Cargo.toml", "README.md", "LICENSE"]
+
+[package.metadata.docs.rs]
+rustdoc-args = ["--cfg", "docsrs"]
+
+[dependencies]
+# Exact pin prevents the alias and canonical package from exposing different
+# versions of the same API in one dependency graph.
+openbim-bsdd = { path = "../openbim-bsdd", version = "=0.1.0" }

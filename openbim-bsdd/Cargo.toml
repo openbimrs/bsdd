@@ -1,0 +1,19 @@
+[package]
+name = "openbim-bsdd"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.85"
+license = "MIT"
+authors = ["point-grey"]
+repository = "https://github.com/openbimrs/bsdd"
+homepage = "https://github.com/openbimrs/bsdd"
+documentation = "https://docs.rs/openbim-bsdd"
+readme = "README.md"
+description = "Reserved OpenBIM.rs scaffold for a future buildingSMART Data Dictionary integration."
+keywords = ["bim", "openbim", "bsdd", "dictionary", "aec"]
+categories = ["development-tools"]
+publish = true
+include = ["src/**", "Cargo.toml", "README.md", "LICENSE"]
+
+[package.metadata.docs.rs]
+rustdoc-args = ["--cfg", "docsrs"]
