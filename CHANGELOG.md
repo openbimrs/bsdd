@@ -13,6 +13,8 @@ and this project follows [Semantic Versioning](https://semver.org/).
 - Alias purity now fails closed over Cargo dependency, feature, target, build,
   and source shape, with 19 mutation probes and exact package allowlists.
 - CI now pins its runner and action revisions.
+- Replaced the retired SwaggerHub documentation URL with buildingSMART's
+  maintained bSDD API documentation page.
 
 ## [0.1.0] - 2026-08-25
 

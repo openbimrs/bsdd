@@ -65,7 +65,7 @@ product and API information belongs to buildingSMART:
 
 - [buildingSMART Data Dictionary service](https://www.buildingsmart.org/users/services/buildingsmart-data-dictionary/)
 - [Official bSDD repository and developer documentation](https://github.com/buildingSMART/bSDD)
-- [Official bSDD API documentation](https://app.swaggerhub.com/apis-docs/buildingSMART/Dictionaries/v1)
+- [Official bSDD API documentation](https://github.com/buildingSMART/bSDD/blob/master/Documentation/bSDD%20API.md)
 
 No standards text, API snapshots, schemas, or dictionary exports are vendored
 in this repository.
