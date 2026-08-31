@@ -31,3 +31,10 @@ explicit maintainer action; the CI workflow does not publish.
 Use focused commits with imperative Conventional Commit subjects where
 practical. Never weaken the alias-purity gate to place implementation in the
 alias package.
+
+## Licensing contributions
+
+Unless an explicitly signed agreement says otherwise, every contribution
+submitted to this repository is licensed under `AGPL-3.0-or-later`. Submit only
+work that you have the right to license. Identify third-party material and
+preserve its license, attribution, and provenance.

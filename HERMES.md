@@ -13,7 +13,7 @@ Run `./scripts/gate.sh`. It is the authoritative local and CI gate.
 
 ## Conventions
 
-- Rust 2021 with MSRV 1.85.0; MIT; authors `point-grey`.
+- Rust 2021 with MSRV 1.85.0; AGPL-3.0-or-later; authors `point-grey`.
 - `openbim-bsdd` is the canonical reserved scaffold.
 - `bsdd` is an exact-version pure re-export and defines nothing.
 - Do not claim any bSDD API, model, authentication, or validation capability.

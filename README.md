@@ -89,4 +89,4 @@ See [the architecture notes](docs/architecture.md) and
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+AGPL-3.0-or-later — see [LICENSE](LICENSE).

@@ -21,4 +21,4 @@ See the repository [capability table](https://github.com/openbimrs/bsdd#capabili
 
 ## License
 
-MIT
+AGPL-3.0-or-later

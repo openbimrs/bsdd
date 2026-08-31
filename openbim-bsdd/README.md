@@ -23,4 +23,4 @@ No API specification or dictionary data is included here.
 
 ## License
 
-MIT
+AGPL-3.0-or-later
