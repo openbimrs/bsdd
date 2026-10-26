@@ -39,7 +39,7 @@ link to buildingSMART documentation does not establish capability.
 
 ## Packaging and release sequence
 
-1. Run `./scripts/gate.sh` on Rust 1.85.0.
+1. Run `./scripts/gate.sh` on Rust 1.99.1.
 2. Publish `openbim-bsdd` before its exact-version alias.
 3. Publish the matching `bsdd` package only through an explicit maintainer action.
 

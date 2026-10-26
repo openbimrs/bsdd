@@ -3,7 +3,7 @@
 [![CI](https://github.com/openbimrs/bsdd/actions/workflows/ci.yml/badge.svg)](https://github.com/openbimrs/bsdd/actions/workflows/ci.yml)
 [![crates.io](https://img.shields.io/crates/v/openbim-bsdd.svg)](https://crates.io/crates/openbim-bsdd)
 [![docs.rs](https://docs.rs/openbim-bsdd/badge.svg)](https://docs.rs/openbim-bsdd)
-[![MSRV](https://img.shields.io/badge/MSRV-1.85.0-blue)](https://www.rust-lang.org)
+[![MSRV](https://img.shields.io/badge/MSRV-1.99-blue)](https://www.rust-lang.org)
 
 A standalone Rust workspace reserving the OpenBIM.rs package names for a
 possible future integration with the buildingSMART Data Dictionary (bSDD).
@@ -72,7 +72,7 @@ in this repository.
 
 ## Development
 
-Rust `1.85.0` is the minimum supported version. Python `3.10` or newer is used
+Rust `1.99` is the minimum supported version. Python `3.10` or newer is used
 by the semantic alias-purity gate.
 
 ```bash
