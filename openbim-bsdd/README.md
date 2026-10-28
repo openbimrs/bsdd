@@ -5,7 +5,7 @@ buildingSMART Data Dictionary (bSDD) integration.
 
 ## Status
 
-**Reserved scaffold only.** Version `0.1.0` does not implement an API client,
+**Reserved scaffold only.** Version `0.1.1` does not implement an API client,
 request or response model, authentication, dictionary publishing, validation,
 or conformance checking. It currently exposes only `PACKAGE_STATUS`.
 
@@ -23,4 +23,4 @@ No API specification or dictionary data is included here.
 
 ## License
 
-AGPL-3.0-or-later
+`AGPL-3.0-or-later OR LicenseRef-Commercial`; a commercial licence is available from the copyright holder named in `NOTICE`.

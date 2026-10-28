@@ -1,9 +1,9 @@
 [package]
 name = "openbim-bsdd"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 rust-version = "1.99"
-license = "AGPL-3.0-or-later"
+license = "AGPL-3.0-or-later OR LicenseRef-Commercial"
 authors = ["point-grey"]
 repository = "https://github.com/openbimrs/bsdd"
 homepage = "https://github.com/openbimrs/bsdd"
@@ -13,7 +13,7 @@ description = "Reserved OpenBIM.rs scaffold for a future buildingSMART Data Dict
 keywords = ["bim", "openbim", "bsdd", "dictionary", "aec"]
 categories = ["development-tools"]
 publish = true
-include = ["src/**", "Cargo.toml", "README.md", "LICENSE", "LICENSES/MIT.txt"]
+include = ["src/**", "Cargo.toml", "README.md", "LICENSE", "NOTICE", "LICENSES/MIT.txt", "LICENSES/LicenseRef-Commercial.txt"]
 
 [package.metadata.docs.rs]
 rustdoc-args = ["--cfg", "docsrs"]

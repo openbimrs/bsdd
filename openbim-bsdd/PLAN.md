@@ -17,4 +17,4 @@ The canonical crate is the only package where implementation may be added. The
 - [ ] `BSDD-CLIENT` — implement an HTTP client with explicit authentication and error behavior
 - [ ] `BSDD-EVIDENCE` — add redistributable fixtures and executable integration evidence
 
-Nothing above is implemented or promised by version `0.1.0`.
+Nothing above is implemented or promised by version `0.1.1`.
