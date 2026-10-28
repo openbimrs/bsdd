@@ -24,8 +24,20 @@ rather than claiming a working buildingSMART Data Dictionary integration.
 Release the canonical `openbim-bsdd` package first. Only after that exact
 version exists on crates.io may the matching `bsdd` alias be released.
 `./scripts/gate.sh` checks the alias against the candidate canonical package;
-`cargo publish` (canonical first) does the registry check. Publishing is always
-an explicit maintainer action; the CI workflow does not publish.
+`cargo publish` (canonical first) does the registry check. Publishing happens
+only through the release workflow described below.
+
+## Releasing
+
+Releases are published by `.github/workflows/release.yml` through crates.io
+trusted publishing; there is no token and no manual `cargo publish`. Bump the
+version(s), date the `CHANGELOG.md` section, merge to `main`, then push an
+annotated tag `v<version>` on that commit. The workflow checks that the tag is
+on `main` and matches the manifest and changelog, runs `scripts/gate.sh`, then
+publishes `openbim-bsdd` and then its exact-version alias `bsdd` in the `crates.io` environment. Already-published versions
+are skipped, so a failed run can be re-run. crates.io trusts exactly the
+repository, the file name `release.yml` and the environment `crates.io`; keep
+all three. Run the workflow by hand with a tag name to rehearse (gate only).
 
 ## Commits
 
