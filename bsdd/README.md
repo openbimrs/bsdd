@@ -9,8 +9,8 @@ same version. It defines no independent API or types.
 
 ```toml
 # Choose one package; do not add both directly.
-bsdd = "0.1.0"
-# openbim-bsdd = "0.1.0"
+bsdd = "0.1.1"
+# openbim-bsdd = "0.1.1"
 ```
 
 ## Status
@@ -21,4 +21,4 @@ See the repository [capability table](https://github.com/openbimrs/bsdd#capabili
 
 ## License
 
-AGPL-3.0-or-later
+`AGPL-3.0-or-later OR LicenseRef-Commercial`; a commercial licence is available from the copyright holder named in `NOTICE`.

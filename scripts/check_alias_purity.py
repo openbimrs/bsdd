@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parent.parent
 ALIAS_PACKAGE = "bsdd"
 CANONICAL_PACKAGE = "openbim-bsdd"
 CANONICAL_CRATE = "openbim_bsdd"
-VERSION = "0.1.0"
+VERSION = "0.1.1"
 
 
 def fail(message: str) -> NoReturn:

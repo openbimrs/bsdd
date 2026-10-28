@@ -12,6 +12,6 @@ RUSTDOCFLAGS="-D warnings" cargo doc --workspace --all-features --no-deps
 scripts/check-alias-purity.sh
 scripts/test-alias-purity.sh
 python3 scripts/check-package-contents.py
-# Verify Cargo's full source preparation and build for the canonical crate.
-cargo package --locked -p openbim-bsdd
-cargo package --locked -p bsdd
+# Package both crates together: cargo verifies the alias against the packaged
+# canonical crate through its temporary registry.
+cargo package --locked -p openbim-bsdd -p bsdd

@@ -14,7 +14,7 @@ configuration from an integration workspace.
 ## Package identity
 
 ```text
-bsdd  -- path + exact =0.1.0 dependency -->  openbim-bsdd
+bsdd  -- path + exact =0.1.1 dependency -->  openbim-bsdd
 (alias; re-export only)                      (canonical scaffold)
 ```
 
@@ -28,7 +28,7 @@ pub use openbim_bsdd::*;
 
 The exact version requirement prevents alias and canonical releases from
 silently drifting. The local path allows workspace verification before release;
-Cargo removes that path from the published manifest and retains `=0.1.0`.
+Cargo removes that path from the published manifest and retains `=0.1.1`.
 
 ## Current boundary
 
@@ -43,8 +43,9 @@ link to buildingSMART documentation does not establish capability.
 2. Publish `openbim-bsdd` before its exact-version alias.
 3. Publish the matching `bsdd` package only through an explicit maintainer action.
 
-The repository CI never publishes. The steady-state gate fully packages and
-verifies both crates.
+The repository CI never publishes. The gate packages both crates
+together and checks the alias against the candidate canonical package;
+`cargo publish` (canonical first) does the registry check.
 
 ## External material
 

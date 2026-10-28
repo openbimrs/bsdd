@@ -9,7 +9,7 @@ A standalone Rust workspace reserving the OpenBIM.rs package names for a
 possible future integration with the buildingSMART Data Dictionary (bSDD).
 
 > [!IMPORTANT]
-> Version `0.1.0` is a **reserved scaffold only**. It does not provide a bSDD
+> Version `0.1.1` is a **reserved scaffold only**. It does not provide a bSDD
 > API client, request or response models, authentication, data validation, or
 > conformance guarantees. Package-name ownership must not be read as a claim of
 > bSDD functionality.
@@ -34,7 +34,7 @@ possible future integration with the buildingSMART Data Dictionary (bSDD).
 | [`bsdd`](bsdd/) | Exact-version pure re-export alias; defines no independent API or types |
 
 ```text
-bsdd  -- exact =0.1.0 dependency -->  openbim-bsdd
+bsdd  -- exact =0.1.1 dependency -->  openbim-bsdd
 (alias; no implementation)           (canonical reserved scaffold)
 ```
 
@@ -47,9 +47,9 @@ canonical crate, preserving one source for any future API.
 Choose one package name (do not add both directly):
 
 ```bash
-cargo add openbim-bsdd@0.1.0
+cargo add openbim-bsdd@0.1.1
 # or
-cargo add bsdd@0.1.0
+cargo add bsdd@0.1.1
 ```
 
 The only current item is a status marker:
@@ -89,4 +89,4 @@ See [the architecture notes](docs/architecture.md) and
 
 ## License
 
-AGPL-3.0-or-later — see [LICENSE](LICENSE).
+`AGPL-3.0-or-later OR LicenseRef-Commercial` — see [LICENSE](LICENSE) and [`LICENSING.md`](LICENSING.md); a commercial licence is available from the copyright holder named in `NOTICE`.
